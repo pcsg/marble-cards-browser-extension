@@ -5,12 +5,52 @@
 </head>
 <body>
 
-<div class="card">
+<div class="app">
+    <section class="app-sheet app-check">
+        <button>
+            <span>Check availability</span>
+        </button>
+    </section>
 
-    <button>
-        <span>Check availability</span>
-    </button>
+    <section class="app-sheet app-status--cant-be-marbled">
+        <h1>Sorry :(</h1>
+        <p>This URL can't be marbled yet</p>
+        <p>
+            Right now you can't marble all sites, but stay tuned! We write on Discord when new sites will become
+            available. You can also see the full list of available sites right now
+            <a href="https://marble.cards/allowed-domains" target="_blank">here</a>.
+        </p>
+    </section>
 
+    <section class="app-sheet app-status--new-card">
+        <h1>New card discovered!</h1>
+        <p>Now create this card to uncover its final look and start a public auction.</p>
+        <div class="app-status--new-card-image"></div>
+
+        <a href="https://marble.cards/create" target="_blank">
+            Go to the creation site
+        </a>
+    </section>
+
+    <section class="app-sheet app-status--taken-card">
+        <h1>This card is taken</h1>
+        <p>This card has already been marbled and purchased by someone else</p>
+        <div class="app-status--taken-card-image"></div>
+        <div class="app-status--taken-card-owner">
+            Owner:
+            <span class="app-status--taken-card-owner-value"></span>
+        </div>
+
+    </section>
+</div>
+
+<div class="loader">
+    <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 </div>
 
 <script src="popup.js"></script>
