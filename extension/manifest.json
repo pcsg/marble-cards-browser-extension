@@ -11,7 +11,8 @@
   "permissions": [
     "activeTab",
     "tabs",
-    "storage"
+    "storage",
+    "https://ws.marble.cards/*"
   ],
   "background": {
     "scripts": [
@@ -27,7 +28,8 @@
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "web_accessible_resources": [
     "assets/javascripts/marble.js",
-    "assets/images/marble-logo.png"
+    "assets/images/marble-logo.png",
+    "popup.css"
   ],
   "content_scripts": [
     {

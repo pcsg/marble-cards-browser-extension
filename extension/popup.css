@@ -1,0 +1,16 @@
+body {
+    background: #1a2047;
+}
+
+button {
+    color: #fff;
+    background-color: #3b1ef4;
+    border: 2px solid #341ad7;
+    white-space: nowrap;
+}
+
+.card {
+    display: inline-block;
+    height: 300px;
+    width: 230px;
+}
