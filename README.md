@@ -18,3 +18,5 @@ The Browser Extension helps you to create Marble Cards.The problem is, URLs are 
 To check a URL you usually have to go to the Marble Card https://marble.cards/ website and check if a URL is out of stock.
 
 With this Browser Extension this back and forth is over.
+
+![Preview](extension/assets/images/preview.gif)
