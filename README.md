@@ -1,7 +1,7 @@
 Browser Extension for MARBLE.CARDS
 ======
 
-This is a browser extension for the CryptoCurrency game Marble.Cards.
+This is a browser extension for the CryptoCurrency game [Marble.Cards](https://marble.cards/).
 
 ![Preview](preview/store-01.png)
 
