@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Marble.Cards - It’s a way to create and trade unique digital cards based on URLs",
-  "description": "This extension helps with your Marble Cards creation",
+  "name": "Marble.Cards",
+  "description": "It’s a way to create and trade unique digital cards based on URLs",
   "version": "0.1",
   "author": "Henning Leutz (www.pcsg.de)",
   "icons": {
