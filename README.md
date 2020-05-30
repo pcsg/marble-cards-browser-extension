@@ -1,7 +1,7 @@
 Browser Extension for MARBLE.CARDS
 ======
 
-This is a browser extension for the CryptoCurrency game [Marble.Cards](https://marble.cards/).
+This is a browser extension for the Crypto Currency game [Marble.Cards](https://marble.cards/).
 
 ![Preview](preview/store-01.png)
 
@@ -18,7 +18,7 @@ What are Marble cards, anyway?
 What does the Browser Extension do?
 ------
 
-The Browser Extension helps you to create Marble Cards.The problem is, URLs are often assigned.
+The Browser Extension helps you to create Marble Cards. The problem is, URLs are often assigned.
 To check a URL you usually have to go to the Marble Card https://marble.cards/ website and check if a URL is out of stock.
 
 With this Browser Extension this back and forth is over.
