@@ -1,12 +1,12 @@
 /**
- * Return the card details
+ * Check card availability
  *
- * @param url
+ * @param {String} url
  */
 function checkCard(url) {
     return fetch('https://ws.marble.cards/task/page/check_page_task', {
-        method: 'post',
-        body: JSON.stringify({url: url}),
+        method : 'post',
+        body   : JSON.stringify({url: url}),
         headers: {
             'Content-type': 'application/json'
         }
@@ -15,10 +15,16 @@ function checkCard(url) {
     });
 }
 
+/**
+ * Return the card details of a marbled card
+ *
+ * @param {String} nftId
+ * @return {Promise}
+ */
 function getCard(nftId) {
     return fetch('https://ws.marble.cards/task/card_index/get_card_detail_task', {
-        method: 'post',
-        body: JSON.stringify({nft_id: nftId}),
+        method : 'post',
+        body   : JSON.stringify({nft_id: nftId}),
         headers: {
             'Content-type': 'application/json'
         }
@@ -30,13 +36,13 @@ function getCard(nftId) {
 /**
  * checks, if the url is allowed for marbling
  *
- * @param url
+ * @param {String} url
  * @return {Promise}
  */
 function isAllowed(url) {
     return fetch('https://ws.marble.cards/task/app_config/is_domain_allowed_for_marbling_task', {
-        method: 'post',
-        body: JSON.stringify({url: url}),
+        method : 'post',
+        body   : JSON.stringify({url: url}),
         headers: {
             'Content-type': 'application/json'
         }
@@ -45,6 +51,11 @@ function isAllowed(url) {
     });
 }
 
+/**
+ * global sheet handling
+ *
+ * @type {{hideAllSheets: (function(): Promise), show: (function(*=): Promise)}}
+ */
 let Sheets = {
 
     hideAllSheets: function () {
@@ -66,6 +77,11 @@ let Sheets = {
     }
 };
 
+/**
+ * Global loader
+ *
+ * @type {{hide: Loader.hide, show: Loader.show}}
+ */
 let Loader = {
     show: function () {
         document.querySelector('.loader').classList.add('loader--show');
@@ -81,7 +97,7 @@ document.querySelector('button').addEventListener('click', () => {
     Loader.show();
 
     chrome.tabs.query({
-        active: true,
+        active           : true,
         lastFocusedWindow: true
     }, tabs => {
         let url = tabs[0].url;

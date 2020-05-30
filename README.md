@@ -11,6 +11,8 @@ What are Marble cards, anyway?
 - Once a card is created, that URL is claimed forever
 - All Marble cards are non-fungible tokens built on Ethereum
 
+[More about Marble.Cards](https://marble.cards/)
+
 What does the Browser Extension do?
 ------
 
@@ -19,4 +21,4 @@ To check a URL you usually have to go to the Marble Card https://marble.cards/ w
 
 With this Browser Extension this back and forth is over.
 
-![Preview](extension/assets/images/preview.gif)
+![Preview](preview/preview.gif)
