@@ -5,8 +5,9 @@
   "version": "0.1",
   "author": "Henning Leutz (www.pcsg.de)",
   "icons": {
-    "16": "assets/images/marble-logo.png",
-    "32": "assets/images/marble-logo.png"
+    "16": "assets/images/marble-logo-16.png",
+    "32": "assets/images/marble-logo-32.png",
+    "64": "assets/images/marble-logo-64.png"
   },
   "permissions": [
     "activeTab",
