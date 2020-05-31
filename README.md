@@ -1,8 +1,8 @@
 Browser Extension for MARBLE.CARDS
 ======
 
-![Chrome](https://img.shields.io/static/v1?label=compatible%20width&message=Chrome&color=orange)
-![Firefox](https://img.shields.io/static/v1?label=compatible%20width&message=Firefox&color=orange)
+![Chrome](https://img.shields.io/static/v1?label=compatible%20with&message=Chrome&color=orange)
+![Firefox](https://img.shields.io/static/v1?label=compatible%20with&message=Firefox&color=orange)
 
 [
 ![Followe me](https://img.shields.io/static/v1?label=&message=Follow%20me&color=blue)
