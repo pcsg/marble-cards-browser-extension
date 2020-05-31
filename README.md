@@ -2,6 +2,7 @@ Browser Extension for MARBLE.CARDS
 ======
 
 ![Chrome](https://img.shields.io/static/v1?label=compatible%20with&message=Chrome&color=orange)
+![Brave](https://img.shields.io/static/v1?label=compatible%20with&message=Brave&color=orange)
 ![Firefox](https://img.shields.io/static/v1?label=compatible%20with&message=Firefox&color=orange)
 
 [
