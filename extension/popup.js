@@ -5,8 +5,8 @@
  */
 function checkCard(url) {
     return fetch('https://ws.marble.cards/task/page/check_page_task', {
-        method : 'post',
-        body   : JSON.stringify({url: url}),
+        method: 'post',
+        body: JSON.stringify({url: url}),
         headers: {
             'Content-type': 'application/json'
         }
@@ -23,8 +23,8 @@ function checkCard(url) {
  */
 function getCard(nftId) {
     return fetch('https://ws.marble.cards/task/card_index/get_card_detail_task', {
-        method : 'post',
-        body   : JSON.stringify({nft_id: nftId}),
+        method: 'post',
+        body: JSON.stringify({nft_id: nftId}),
         headers: {
             'Content-type': 'application/json'
         }
@@ -41,8 +41,8 @@ function getCard(nftId) {
  */
 function isAllowed(url) {
     return fetch('https://ws.marble.cards/task/app_config/is_domain_allowed_for_marbling_task', {
-        method : 'post',
-        body   : JSON.stringify({url: url}),
+        method: 'post',
+        body: JSON.stringify({url: url}),
         headers: {
             'Content-type': 'application/json'
         }
@@ -97,7 +97,7 @@ document.querySelector('button').addEventListener('click', () => {
     Loader.show();
 
     chrome.tabs.query({
-        active           : true,
+        active: true,
         lastFocusedWindow: true
     }, tabs => {
         let url = tabs[0].url;
@@ -134,8 +134,6 @@ document.querySelector('button').addEventListener('click', () => {
                     Loader.hide();
 
                     Sheets.show('.app-status--taken-card').then(function () {
-                        console.log(card);
-
                         // is available
                         let Image = document.createElement('img');
                         Image.classList.add('marble-card')
@@ -144,7 +142,9 @@ document.querySelector('button').addEventListener('click', () => {
                         Image.innerHTML = '';
 
                         document.querySelector('.app-status--taken-card-image').append(Image);
-                        document.querySelector('.app-status--taken-card-owner-value').innerHTML = card.owner_address;
+                        document.querySelector('.app-status--taken-card-owner-value').appendChild(
+                            document.createTextNode(card.owner_address)
+                        );
                     });
                 });
             });
