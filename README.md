@@ -1,6 +1,13 @@
 Browser Extension for MARBLE.CARDS
 ======
 
+![Chrome](https://img.shields.io/static/v1?label=compatible%20width&message=Chrome&color=orange)
+![Firefox](https://img.shields.io/static/v1?label=compatible%20width&message=Firefox&color=orange)
+
+[
+![Followe me](https://img.shields.io/static/v1?label=&message=Follow%20me&color=blue)
+](https://twitter.com/de_henne)
+
 This is a browser extension for the Cryptocurrency Collectables [Marble.Cards](https://marble.cards/).
 
 ![Preview](preview/store-01.png)
