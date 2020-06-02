@@ -2,12 +2,13 @@
   "manifest_version": 2,
   "name": "Marble.Cards",
   "description": "It’s a way to create and trade unique digital cards based on URLs",
-  "version": "0.1",
+  "version": "0.2",
   "author": "Henning Leutz (www.pcsg.de)",
   "icons": {
     "16": "assets/images/marble-logo-16.png",
     "32": "assets/images/marble-logo-32.png",
-    "64": "assets/images/marble-logo-64.png"
+    "64": "assets/images/marble-logo-64.png",
+    "128": "assets/images/marble-logo-128.png"
   },
   "permissions": [
     "activeTab",
