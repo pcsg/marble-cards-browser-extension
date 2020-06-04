@@ -13,6 +13,12 @@ This is a browser extension for the Cryptocurrency Collectables [Marble.Cards](h
 
 ![Preview](preview/store-01.png)
 
+Installation
+------
+
+- [Chrome Store](https://chrome.google.com/webstore/detail/marblecards/kokmlkbifjngmeblghcfedpbheodijoh)
+- [Firefox Add-ons](https://addons.mozilla.org/de/firefox/addon/marble-cards/)
+
 What are Marble cards, anyway?
 ------
 
