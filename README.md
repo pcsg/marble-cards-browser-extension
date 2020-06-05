@@ -29,13 +29,17 @@ What are Marble cards, anyway?
 
 [More about Marble.Cards](https://marble.cards/)
 
-What does the Browser Extension do?
+What does this Browser Extension do?
 ------
 
-The Browser Extension helps you to create Marble Cards. The problem is, URLs are often assigned.
+This Browser Extension helps you to create Marble Cards. The problem is, URLs are often assigned.
 To check a URL you usually have to go to the Marble Card https://marble.cards/ website and check if a URL is out of stock.
 
 With this Browser Extension this back and forth is over.
 
 ![Preview](preview/preview.gif)
 
+Wiki
+------
+
+You will find more information in the [Wiki](https://github.com/pcsg/marble-cards-browser-extension/wiki)
