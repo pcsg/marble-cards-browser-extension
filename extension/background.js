@@ -21,7 +21,7 @@ chrome.runtime.onStartup.addListener(() => {
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     console.log('onMessage....');
-    console.log(arguments);
+    console.log(request);
 
     // get & check card availability
     if (request.type === "card-details") {
@@ -51,5 +51,9 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         }).then(function (result) {
             sendResponse(result);
         });
+    }
+
+    if (request.type === 'card-marbling-status') {
+        sendResponse(['huhu']);
     }
 });

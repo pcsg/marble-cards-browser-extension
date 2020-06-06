@@ -86,6 +86,18 @@ class Job {
     }
 
     /**
+     * check marbling background status
+     */
+    check() {
+        chrome.runtime.sendMessage({
+            type: 'card-marbling-status',
+            url : this.url
+        }, (response) => {
+            console.log(response);
+        });
+    }
+
+    /**
      * runs the job
      */
     run() {
