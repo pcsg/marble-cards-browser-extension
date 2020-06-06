@@ -22,8 +22,8 @@ a {
 
 .app {
     display: inline-block;
-    height: 420px;
-    width: 280px;
+    height: 580px;
+    width: 400px;
 }
 
 .app-sheet {
@@ -43,8 +43,47 @@ a {
 }
 
 .app-check {
-    align-items: center;
-    justify-content: center;
+
+}
+
+.app-check-jobs table {
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+}
+
+.app-check-jobs table tr {
+    cursor: pointer;
+}
+
+.app-check-jobs table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.app-check-jobs table tr:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.app-check-jobs table td {
+    margin: 0;
+    padding: 10px;
+}
+
+.app-check-jobs-url {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 300px;
+}
+
+.app-check-jobs-status {
+    width: 60px;
+}
+
+.app-check-buttons {
+    height: 60px;
 }
 
 .marble-card {

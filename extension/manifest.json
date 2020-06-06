@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Marble.Cards",
   "description": "It’s a way to create and trade unique digital cards based on URLs",
-  "version": "0.2",
+  "version": "0.3",
   "author": "Henning Leutz (www.pcsg.de)",
   "icons": {
     "16": "assets/images/marble-logo-16.png",
@@ -17,9 +17,8 @@
     "https://ws.marble.cards/*"
   ],
   "background": {
-    "scripts": [
-      "context.js"
-    ]
+    "page": "background.html",
+    "persistent": false
   },
   "browser_action": {
     "default_icon": "assets/images/marble-logo.png",
@@ -29,7 +28,9 @@
   "minimum_chrome_version": "50",
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "web_accessible_resources": [
-    "assets/javascripts/marble.js",
+    "assets/javascripts/utils.js",
+    "assets/javascripts/classes/Job.js",
+    "assets/javascripts/classes/Queue.js",
     "assets/images/marble-logo.png",
     "popup.css"
   ],
