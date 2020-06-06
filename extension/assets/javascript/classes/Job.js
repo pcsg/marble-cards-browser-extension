@@ -93,6 +93,7 @@ class Job {
             type: 'card-marbling-status',
             url : this.url
         }, (response) => {
+            console.log('CHECK');
             console.log(response);
         });
     }
@@ -131,6 +132,10 @@ class Job {
                 });
             }
         });
+    }
+
+    fetch() {
+
     }
 }
 

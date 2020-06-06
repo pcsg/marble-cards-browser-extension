@@ -82,8 +82,13 @@ a {
     width: 60px;
 }
 
+.app-check-jobs {
+    flex-grow: 1;
+}
+
 .app-check-buttons {
-    height: 60px;
+    text-align: center;
+    height: 40px;
 }
 
 .marble-card {

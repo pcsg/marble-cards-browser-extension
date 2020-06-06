@@ -67,6 +67,21 @@ class Queue {
     }
 
     /**
+     *
+     * @param url
+     * @return {boolean|*}
+     */
+    getJobByUrl(url) {
+        for (let i = 0, len = this.queue.length; i < len; i++) {
+            if (this.queue[i].getUrl() === url) {
+                return this.queue[i];
+            }
+        }
+
+        return false;
+    }
+
+    /**
      * run all jobs
      */
     run() {

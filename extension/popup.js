@@ -136,6 +136,8 @@ CardQueue.getJobs().forEach(function (Job) {
     Row.appendChild(UrlCell);
     Row.appendChild(StatusCell);
     CardJobList.appendChild(Row);
+
+    Job.check();
 });
 
 // request permissions for push notifications
