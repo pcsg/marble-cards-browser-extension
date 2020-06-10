@@ -71,6 +71,8 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         Prom.then(function (result) {
             sendResponse(result);
         });
+
+        return;
     }
 
     // get the current checking status
@@ -96,5 +98,9 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         Prom.then(function (result) {
             sendResponse(result);
         });
+
+        return;
     }
+
+    sendResponse(404);
 });
